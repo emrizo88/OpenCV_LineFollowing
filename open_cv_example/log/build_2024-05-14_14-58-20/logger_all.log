@@ -1,0 +1,92 @@
+[6.602s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[6.602s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x71c2c6f52cb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71c2c6f510c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71c2c6f510c0>>)
+[7.063s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[7.063s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[7.063s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[7.063s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[7.063s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[7.063s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[7.064s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/emilio/open_cv_example'
+[7.064s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[7.064s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[7.064s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[7.064s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[7.064s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[7.064s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[7.064s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[7.064s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[7.064s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[7.295s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'open_cv_example'
+[7.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[7.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[7.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[7.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[7.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[8.041s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[8.041s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[8.385s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/emilio/ros2_utilities_ws/install
+[8.400s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/emilio/ros2_ws/install
+[8.425s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/emilio/dev_ws/install
+[8.442s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 341 installed packages in /opt/ros/humble
+[8.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[9.471s] Level 5:colcon.colcon_core.verb:set package 'open_cv_example' build argument 'cmake_args' from command line to 'None'
+[9.471s] Level 5:colcon.colcon_core.verb:set package 'open_cv_example' build argument 'cmake_target' from command line to 'None'
+[9.471s] Level 5:colcon.colcon_core.verb:set package 'open_cv_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[9.471s] Level 5:colcon.colcon_core.verb:set package 'open_cv_example' build argument 'cmake_clean_cache' from command line to 'False'
+[9.471s] Level 5:colcon.colcon_core.verb:set package 'open_cv_example' build argument 'cmake_clean_first' from command line to 'False'
+[9.471s] Level 5:colcon.colcon_core.verb:set package 'open_cv_example' build argument 'cmake_force_configure' from command line to 'False'
+[9.471s] Level 5:colcon.colcon_core.verb:set package 'open_cv_example' build argument 'ament_cmake_args' from command line to 'None'
+[9.471s] Level 5:colcon.colcon_core.verb:set package 'open_cv_example' build argument 'catkin_cmake_args' from command line to 'None'
+[9.471s] Level 5:colcon.colcon_core.verb:set package 'open_cv_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[9.471s] DEBUG:colcon.colcon_core.verb:Building package 'open_cv_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/emilio/open_cv_example/build/open_cv_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/emilio/open_cv_example/install/open_cv_example', 'merge_install': False, 'path': '/home/emilio/open_cv_example', 'symlink_install': False, 'test_result_base': None}
+[9.488s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[9.505s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[9.505s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/emilio/open_cv_example' with build type 'ament_python'
+[9.505s] Level 1:colcon.colcon_core.shell:create_environment_hook('open_cv_example', 'ament_prefix_path')
+[9.574s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[9.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emilio/open_cv_example/install/open_cv_example/share/open_cv_example/hook/ament_prefix_path.ps1'
+[9.591s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emilio/open_cv_example/install/open_cv_example/share/open_cv_example/hook/ament_prefix_path.dsv'
+[9.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emilio/open_cv_example/install/open_cv_example/share/open_cv_example/hook/ament_prefix_path.sh'
+[9.634s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.634s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.118s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/emilio/open_cv_example'
+[10.133s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.133s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.997s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emilio/open_cv_example': PYTHONPATH=/home/emilio/open_cv_example/build/open_cv_example/prefix_override:/home/emilio/open_cv_example/install/open_cv_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/open_cv_example build --build-base /home/emilio/open_cv_example/build/open_cv_example/build install --record /home/emilio/open_cv_example/build/open_cv_example/install.log --single-version-externally-managed
+[13.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/emilio/open_cv_example' returned '0': PYTHONPATH=/home/emilio/open_cv_example/build/open_cv_example/prefix_override:/home/emilio/open_cv_example/install/open_cv_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/open_cv_example build --build-base /home/emilio/open_cv_example/build/open_cv_example/build install --record /home/emilio/open_cv_example/build/open_cv_example/install.log --single-version-externally-managed
+[13.540s] Level 1:colcon.colcon_core.environment:checking '/home/emilio/open_cv_example/install/open_cv_example' for CMake module files
+[13.541s] Level 1:colcon.colcon_core.environment:checking '/home/emilio/open_cv_example/install/open_cv_example' for CMake config files
+[13.543s] Level 1:colcon.colcon_core.environment:checking '/home/emilio/open_cv_example/install/open_cv_example/lib'
+[13.543s] Level 1:colcon.colcon_core.environment:checking '/home/emilio/open_cv_example/install/open_cv_example/bin'
+[13.544s] Level 1:colcon.colcon_core.environment:checking '/home/emilio/open_cv_example/install/open_cv_example/lib/pkgconfig/open_cv_example.pc'
+[13.544s] Level 1:colcon.colcon_core.environment:checking '/home/emilio/open_cv_example/install/open_cv_example/lib/python3.10/site-packages'
+[13.545s] Level 1:colcon.colcon_core.shell:create_environment_hook('open_cv_example', 'pythonpath')
+[13.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emilio/open_cv_example/install/open_cv_example/share/open_cv_example/hook/pythonpath.ps1'
+[13.578s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emilio/open_cv_example/install/open_cv_example/share/open_cv_example/hook/pythonpath.dsv'
+[13.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emilio/open_cv_example/install/open_cv_example/share/open_cv_example/hook/pythonpath.sh'
+[13.579s] Level 1:colcon.colcon_core.environment:checking '/home/emilio/open_cv_example/install/open_cv_example/bin'
+[13.579s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(open_cv_example)
+[13.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/emilio/open_cv_example/install/open_cv_example/share/open_cv_example/package.ps1'
+[13.626s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/emilio/open_cv_example/install/open_cv_example/share/open_cv_example/package.dsv'
+[13.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/emilio/open_cv_example/install/open_cv_example/share/open_cv_example/package.sh'
+[13.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/emilio/open_cv_example/install/open_cv_example/share/open_cv_example/package.bash'
+[13.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/emilio/open_cv_example/install/open_cv_example/share/open_cv_example/package.zsh'
+[13.761s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/emilio/open_cv_example/install/open_cv_example/share/colcon-core/packages/open_cv_example)
+[13.761s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.762s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.762s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.762s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.194s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.195s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.195s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.243s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.268s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/emilio/open_cv_example/install/local_setup.ps1'
+[14.269s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/emilio/open_cv_example/install/_local_setup_util_ps1.py'
+[14.286s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/emilio/open_cv_example/install/setup.ps1'
+[14.303s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/emilio/open_cv_example/install/local_setup.sh'
+[14.304s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/emilio/open_cv_example/install/_local_setup_util_sh.py'
+[14.304s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/emilio/open_cv_example/install/setup.sh'
+[14.323s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/emilio/open_cv_example/install/local_setup.bash'
+[14.374s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/emilio/open_cv_example/install/setup.bash'
+[14.441s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/emilio/open_cv_example/install/local_setup.zsh'
+[14.443s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/emilio/open_cv_example/install/setup.zsh'

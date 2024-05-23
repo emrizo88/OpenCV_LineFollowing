@@ -1,0 +1,28 @@
+[2.974s] Invoking command in '/home/emilio/open_cv_example': PYTHONPATH=/home/emilio/open_cv_example/build/open_cv_example/prefix_override:/home/emilio/open_cv_example/install/open_cv_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/open_cv_example build --build-base /home/emilio/open_cv_example/build/open_cv_example/build install --record /home/emilio/open_cv_example/build/open_cv_example/install.log --single-version-externally-managed
+[3.199s] running egg_info
+[3.199s] writing build/open_cv_example/open_cv_example.egg-info/PKG-INFO
+[3.199s] writing dependency_links to build/open_cv_example/open_cv_example.egg-info/dependency_links.txt
+[3.199s] writing entry points to build/open_cv_example/open_cv_example.egg-info/entry_points.txt
+[3.200s] writing requirements to build/open_cv_example/open_cv_example.egg-info/requires.txt
+[3.200s] writing top-level names to build/open_cv_example/open_cv_example.egg-info/top_level.txt
+[3.201s] reading manifest file 'build/open_cv_example/open_cv_example.egg-info/SOURCES.txt'
+[3.250s] adding license file 'LICENSE'
+[3.252s] writing manifest file 'build/open_cv_example/open_cv_example.egg-info/SOURCES.txt'
+[3.253s] running build
+[3.253s] running build_py
+[3.254s] copying open_cv_example/camara.py -> /home/emilio/open_cv_example/build/open_cv_example/build/lib/open_cv_example
+[3.254s] running install
+[3.255s] running install_lib
+[3.258s] copying /home/emilio/open_cv_example/build/open_cv_example/build/lib/open_cv_example/camara.py -> /home/emilio/open_cv_example/install/open_cv_example/lib/python3.10/site-packages/open_cv_example
+[3.261s] byte-compiling /home/emilio/open_cv_example/install/open_cv_example/lib/python3.10/site-packages/open_cv_example/camara.py to camara.cpython-310.pyc
+[3.264s] running install_data
+[3.266s] running install_egg_info
+[3.272s] removing '/home/emilio/open_cv_example/install/open_cv_example/lib/python3.10/site-packages/open_cv_example-0.0.0-py3.10.egg-info' (and everything under it)
+[3.273s] Copying build/open_cv_example/open_cv_example.egg-info to /home/emilio/open_cv_example/install/open_cv_example/lib/python3.10/site-packages/open_cv_example-0.0.0-py3.10.egg-info
+[3.313s] running install_scripts
+[3.360s] Installing camara script to /home/emilio/open_cv_example/install/open_cv_example/lib/open_cv_example
+[3.360s] Installing camara_sub script to /home/emilio/open_cv_example/install/open_cv_example/lib/open_cv_example
+[3.360s] Installing cv_example script to /home/emilio/open_cv_example/install/open_cv_example/lib/open_cv_example
+[3.360s] Installing movimiento_camara script to /home/emilio/open_cv_example/install/open_cv_example/lib/open_cv_example
+[3.361s] writing list of installed files to '/home/emilio/open_cv_example/build/open_cv_example/install.log'
+[3.378s] Invoked command in '/home/emilio/open_cv_example' returned '0': PYTHONPATH=/home/emilio/open_cv_example/build/open_cv_example/prefix_override:/home/emilio/open_cv_example/install/open_cv_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/open_cv_example build --build-base /home/emilio/open_cv_example/build/open_cv_example/build install --record /home/emilio/open_cv_example/build/open_cv_example/install.log --single-version-externally-managed
